@@ -105,25 +105,16 @@ body{
 #m_head{visibility: hidden;max-height: 0;overflow: hidden;} // ios에서 display: none이 display: block으로 바뀔 경우 생기는 오류 때문에, 모바일 요소는 전부 visibility, max-height, overflow로 제어!!
 
 #pc_foot{
-    padding: 50px 150px;background: $green;color: $white;
-    img{height: 18px;margin-bottom: 30px;}
-    .copyright_txt{
-        font-weight: 500;line-height: 20px;
-        address{margin-bottom: 6px;font-size: 12px;}
-        p{margin-bottom: 20px;font-size: 14px;}
-    }
+    padding: 50px 0 90px;background: $main;color: $white;text-align: center;
     .btm_link{
-        @include flex;
-        font-size: 14px;font-weight: 700;
-        .link_txt{
-            a{margin-right: 24px;}
+        margin-bottom: 20px;
+        a{
+            margin-left: 24px;display: inline-block;
+            &:first-child{margin-left: 0;}
         }
-        .link_social{
-            a{
-                margin-left: 24px;
-                &:first-child{margin-left: 0;}
-            }
-        }
+    }
+    .copyright_txt{
+        address{font-size: 11px;letter-spacing: 0.03em;line-height: 1.9em;}
     }
 }
 #m_foot{visibility: hidden;height: 0;overflow: hidden;}
@@ -140,11 +131,6 @@ body{
             padding: 0 90px;margin: 0 auto;max-width: 1440px;
         }
     }
-}
-
-// 작은 pc (1440px)
-@media screen and (max-width: 1440px) {
-    #pc_foot{padding: 50px 90px;}
 }
 
 // 태블릿 (1152px)

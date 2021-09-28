@@ -5,7 +5,7 @@
 .underline{
   &::before{
     @include transition(all 1.2s);
-    content: "";position: absolute;bottom: 0;left: 0;width: 0%;height: 40%;background: $main;z-index: -1;opacity: 0.4;}
+    content: "";position: absolute;bottom: 0;left: 0;width: 0%;height: 50%;background: $main;z-index: -1;opacity: 0.4;}
 }
 .underline.on{
   &::before{width: 100%;}
