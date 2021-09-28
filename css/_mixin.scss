@@ -1,0 +1,92 @@
+@charset "utf-8";
+@mixin flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+@mixin justify-content($value: center) {
+    -webkit-justify-content: $value;
+    justify-content: $value;
+}
+
+@mixin align-items($value: center) {
+    -webkit-align-items: $value;
+    align-items: $value;
+}
+
+@mixin flex-wrap($value: wrap) {
+    -webkit-flex-wrap: $value;
+    flex-wrap: $value;
+}
+
+@mixin flex-direction($value: column) {
+    -webkit-flex-direction: $value;
+    -moz-flex-direction: $value;
+    flex-direction: $value;
+}
+
+@mixin transform($value...) {
+    -webkit-transform: $value;
+    -moz-transform: $value;
+    transform: $value;
+}
+
+@mixin translateX-50 {
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+@mixin translateY-50 {
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+@mixin translate-50 {
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+@mixin transition($value...) {
+    -webkit-transition: $value;
+    transition: $value;
+}
+
+@mixin keyframes($aniName) {
+    @-webkit-keyframes #{$aniName} {@content;}
+    @-moz-keyframes #{$aniName} {@content;}
+    @keyframes #{$aniName} {@content;}
+}
+
+@mixin animation($value...) {
+    -webkit-animation: $value;
+    -moz-animation: $value;
+    animation: $value;
+}
+
+@mixin animation-delay($value) {
+    -webkit-animation-delay: $value;
+    -moz-animation-delay: $value;
+    animation-delay: $value;
+}
+
+@mixin multiEllipsis($line, $maxHei) {
+    display: -webkit-box;
+    -webkit-line-clamp: $line; // 콘텐츠가 고정될 줄 수를 지정
+    -webkit-box-orient: vertical;
+    white-space: normal;  // 줄바꿈 허용
+    max-height: $maxHei;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+@mixin  ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
