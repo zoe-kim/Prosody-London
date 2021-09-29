@@ -175,12 +175,13 @@
 }
 #cnt6{
   .cnt_wrap{
-    padding: 90px 90px 120px 90px;margin: 0 auto;max-width: 1440px;text-align: center;
+    padding: 90px 90px 120px 90px;margin: 0 auto;max-width: 1440px;text-align: center;font-size: 18px;
     .notice_box{
       h3{
-        font-size: 42px;line-height: 60px;letter-spacing: -1px;margin-top: 45px;margin-bottom: 48px;color:$gray1;text-align: left;
+        line-height: 60px;letter-spacing: -1px;margin-bottom: 48px;color:$gray2;
         strong{position: relative;color: $black;}
-      }
+        p{font-size: 32px;}
+      }  
       ul{
         @include flex;
         @include flex-wrap;
@@ -203,7 +204,7 @@
               span{display: block;font-size: 16px;line-height: 1;color: $gray3;letter-spacing: 0;}
             }
             &:hover, &:focus{
-              color: $green;@include transition(all 0.3s);
+              color: $main;@include transition(all 0.3s);
               .thumb_box::before{opacity: 1;}
             }
           }

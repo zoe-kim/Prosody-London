@@ -443,21 +443,23 @@
   margin: 0 auto;
   max-width: 1440px;
   text-align: center;
+  font-size: 18px;
 }
 
 #cnt6 .cnt_wrap .notice_box h3 {
-  font-size: 42px;
   line-height: 60px;
   letter-spacing: -1px;
-  margin-top: 45px;
   margin-bottom: 48px;
-  color: #949494;
-  text-align: left;
+  color: #909090;
 }
 
 #cnt6 .cnt_wrap .notice_box h3 strong {
   position: relative;
   color: #1E1E1E;
+}
+
+#cnt6 .cnt_wrap .notice_box h3 p {
+  font-size: 32px;
 }
 
 #cnt6 .cnt_wrap .notice_box ul {
@@ -533,7 +535,7 @@
 }
 
 #cnt6 .cnt_wrap .notice_box ul li a:hover, #cnt6 .cnt_wrap .notice_box ul li a:focus {
-  color: #189066;
+  color: #501215;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
