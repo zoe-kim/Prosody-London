@@ -120,8 +120,7 @@ body{
 #m_foot{visibility: hidden;height: 0;overflow: hidden;}
 
 .top_btn{
-    position: fixed;right: 50px;bottom: 50px;width: 60px;height: 60px; background: url("../images/common/top_btn_w.png") no-repeat center / cover;z-index: 10;cursor: pointer;box-shadow: 3px 3px 10px 1px rgba(0,0,0,.1);display: none;
-    &:hover, &:focus{background-image: url("../images/common/top_btn.png"); @include transition(all 0.3s);}
+    position: fixed;right: 50px;bottom: 50px;width: 40px;height: 40px; background: url("../images/common/top_btn_w.png") no-repeat center / cover;z-index: 10;cursor: pointer;box-shadow: 3px 3px 10px 1px rgba(0,0,0,.1);display: none;
 }
 
 // pc (1560px)

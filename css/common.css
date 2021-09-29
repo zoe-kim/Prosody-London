@@ -307,20 +307,14 @@ body * {
   position: fixed;
   right: 50px;
   bottom: 50px;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   background: url("../images/common/top_btn_w.png") no-repeat center/cover;
   z-index: 10;
   cursor: pointer;
   -webkit-box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.1);
           box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.1);
   display: none;
-}
-
-.top_btn:hover, .top_btn:focus {
-  background-image: url("../images/common/top_btn.png");
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
 }
 
 @media screen and (max-width: 1560px) {
