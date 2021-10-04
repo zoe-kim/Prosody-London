@@ -81,44 +81,16 @@
 #fullpage{position: relative;width: 100%;height: 100%;}
 #cnt1{
   position: relative;overflow: hidden;
-  .swiper-container{margin: 0 auto;overflow: hidden;width: 100vw;height: 100vh;color: $white;}
+  .swiper-container{margin: 0 auto;overflow: hidden;width: 100vw;height: 100vh;}
   .swiper-slide{
     background: no-repeat center / cover;
     &.slide1{background-image: url("../images/main/cnt1_img01.jpg");}
     &.slide2{background-image: url("../images/main/cnt1_img02.jpg");}
     &.slide3{background-image: url("../images/main/cnt1_img03.jpg");}
   }  
-  .cnt_box{
-    @include translateY-50;
-    position: absolute;top: 50%;left: 150px;text-shadow: 1px 1px 4px rgba(0,0,0,.2);
-    h3{font-size: 48px;margin-bottom: 30px;line-height: 68px;letter-spacing: -1px;font-weight: 700;}
-  }
-  .controller{
-    @include flex;
-    position: absolute;bottom: 80px;left: 150px;width: 184px;height: 48px;z-index: 800;
-    .swiper-pagination, .swiper-button-prev, .swiper-button-next{position: static;} // position 속성을 제거할 경우 position: static;
-    .swiper-button-wrap{@include flex;}
-    .swiper-button-prev, .swiper-button-next{
-      @include transition(all 0.3s);
-      margin-top: 0;width: 48px;height: 48px;background: no-repeat 50% / cover;margin-right: 24px;
-      &::after{display: none;} // 기본 파란색 버튼 없애기
-    }
-    .swiper-button-prev{background-image: url("../images/main/slide_prev_btn_w.png");}
-    .swiper-button-next{background-image: url("../images/main/slide_next_btn_w.png");}
-    .swiper-pagination{
-      @include flex;
-      @include justify-content(space-between);
-      font-size: 16px;line-height: 46px;color: rgba(255, 255, 255, 0.4);
-      .swiper-pagination-current, .swiper-pagination-total{font-weight: 500;color: rgba(255, 255, 255, 1);}
-    }
-    .swiper-auto-wrap i{
-      position: absolute;top: 50%;@include translateY-50;right: -48px;padding: 16px;
-      &:hover, &:focus{color: $green;}
-    }
-  }
   .btm_logo{
     @include translateX-50;
-    position: absolute;bottom: 60px;left: 50%;z-index: 700;width: 300px;
+    position: absolute;bottom: 6%;left: 50%;z-index: 700;width: 300px;
   }
 }
 #cnt2{
@@ -218,9 +190,6 @@
 
 // 태블릿 (1152px)
 @media screen and (max-width: 1152px) {
-  #cnt1{
-    .swiper-container{height: 90vh;}
-  }
   #cnt2{
     .wide_section{
       .cnt_wrap{
@@ -289,23 +258,8 @@
 // 모바일 (625px)
 @media screen and (max-width: 625px) {
   #cnt1{
-    .swiper-container{height: 80vh;}
-    .swiper-slide{
-      &.slide1{background-image: url("../images/main/m_cnt1_img01.jpg");}
-      &.slide2{background-image: url("../images/main/m_cnt1_img02.jpg");}
-      &.slide3{background-image: url("../images/main/m_cnt1_img03.jpg");}
-    }  
-    .cnt_box{
-      left: 24px;
-      h3{font-size: 32px;margin-bottom: 24px;line-height: 1.5;}
-    }
-    .controller{
-      left: 24px;width: 160px;height: 36px;bottom: 24px;
-      .swiper-button-prev, .swiper-button-next{width: 36px;height: 36px;}
-      .swiper-pagination{line-height: 34px;}
-      .swiper-auto-wrap i{right: -36px;padding: 10px;}  
-    }
-    .btm_btn{display: none;}  
+    .swiper-container{height: 90vh;}
+    .btm_logo{width: 260px;}  
   }
   #cnt2{
     .wide_section{
