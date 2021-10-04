@@ -215,35 +215,6 @@
   }
 }
 
-// 작은 pc (1440px)
-@media screen and (max-width: 1440px) {
-  #cnt1{
-    .cnt_box{left: 90px;}
-    .controller{left: 90px;}
-  }
-  #cnt3{
-    position: relative;
-    .wide_section{
-      @include translateY-50;
-      position: absolute;top: calc(50% + 45px);left: 0;
-      .cnt_wrap{
-        padding: 0 90px;
-        #book_list{
-          a{
-            .hover_book{
-              .pc_txt_box{
-                span{@include multiEllipsis(4, 100px);}
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  #cnt4{
-    .cnt_wrap{padding: 0 90px;}
-  }
-}
 
 // 태블릿 (1152px)
 @media screen and (max-width: 1152px) {
@@ -315,8 +286,8 @@
   }
 }
 
-// 모바일 (690px)
-@media screen and (max-width: 690px) {
+// 모바일 (625px)
+@media screen and (max-width: 625px) {
   #cnt1{
     .swiper-container{height: 80vh;}
     .swiper-slide{
@@ -389,76 +360,4 @@
   }
   .slide_link_btn{padding: 0 45px 0 26px;font-size: 14px;}
   .link_btn{padding: 0 30px;height: 46px;line-height: 46px;font-size: 14px;}
-}
-
-// 작은 모바일 (384px)
-@media screen and (max-width: 384px) {
-  #cnt1{
-    .cnt_box{
-      left: vw-calc384(24);
-      h3{font-size: vw-calc384(32);margin-bottom: vw-calc384(24);}
-    }
-    .controller{
-      left: vw-calc384(24);width: vw-calc384(160);height: vw-calc384(36);bottom: vw-calc384(24);
-      .swiper-button-prev, .swiper-button-next{width: vw-calc384(36);height: vw-calc384(36);margin-right: vw-calc384(24);}
-      .swiper-pagination{font-size: vw-calc384(16);line-height: vw-calc384(34);}
-      .swiper-auto-wrap i{right: vw-calc384(-36);padding: vw-calc384(10);font-size: vw-calc384(16);}  
-    }
-  }
-  #cnt2{
-    .wide_section{
-      .cnt_wrap{
-        padding: vw-calc384(48) vw-calc384(24) vw-calc384(36);
-        p{font-size: vw-calc384(14);margin-bottom: vw-calc384(20);}
-        h3{font-size: vw-calc384(24);margin-bottom: vw-calc384(24);}
-      }
-    }
-  }
-  #cnt3{
-    .wide_section{
-      .cnt_wrap{
-        padding: vw-calc384(48) vw-calc384(24) vw-calc384(60);
-        h3{font-size: vw-calc384(24);margin-bottom: vw-calc384(32);}
-        #m_book_list{
-          margin-bottom: vw-calc384(24);
-          li{
-            padding: vw-calc384(16) 0;
-            a{width: vw-calc384(168);height: vw-calc384(243);border-radius: vw-calc384(12);margin-right: vw-calc384(24);}
-          }
-          .m_txt_box{
-            font-size: vw-calc384(16);width: calc(100% - #{vw-calc384(192)});
-            strong{font-size: vw-calc384(18);padding: 8px 0;}
-            p{padding: vw-calc384(12) 0;}
-            span{@include multiEllipsis(5, vw-calc384(150));}
-          }
-        }  
-      }
-    }
-  }
-  #cnt4{
-    .cnt_wrap{
-      padding: vw-calc384(48) vw-calc384(24) vw-calc384(60);
-      .notice_box{
-        h3{font-size: vw-calc384(24);margin-bottom: vw-calc384(48);}
-        ul{
-          margin-bottom: vw-calc384(24);
-          li{
-            width: calc(50% - #{vw-calc384(8)});margin-left: vw-calc384(16);margin-bottom: vw-calc384(24);
-            a{
-              .thumb_box{border-radius: vw-calc384(12);}
-              .txt_box{
-                p{font-size: vw-calc384(16);line-height: vw-calc384(20);margin: vw-calc384(12) 0 vw-calc384(8);@include multiEllipsis(2, vw-calc384(40));}
-                span{font-size: vw-calc384(14);}
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  .slide_link_btn{
-    padding: 0 vw-calc384(45) 0 vw-calc384(26);font-size: vw-calc384(14);height: vw-calc384(54);line-height: vw-calc384(54);border-radius: vw-calc384(100);
-    &::after{width: vw-calc384(10);height: vw-calc384(10);right: vw-calc384(26);}
-  }
-  .link_btn{padding: 0 vw-calc384(30);height: vw-calc384(46);line-height: vw-calc384(46);font-size: vw-calc384(14);border-radius: vw-calc384(100);}
 }

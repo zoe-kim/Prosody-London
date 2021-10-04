@@ -549,40 +549,6 @@
   animation-delay: 1.2s;
 }
 
-@media screen and (max-width: 1440px) {
-  #cnt1 .cnt_box {
-    left: 90px;
-  }
-  #cnt1 .controller {
-    left: 90px;
-  }
-  #cnt3 {
-    position: relative;
-  }
-  #cnt3 .wide_section {
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    position: absolute;
-    top: calc(50% + 45px);
-    left: 0;
-  }
-  #cnt3 .wide_section .cnt_wrap {
-    padding: 0 90px;
-  }
-  #cnt3 .wide_section .cnt_wrap #book_list a .hover_book .pc_txt_box span {
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    white-space: normal;
-    max-height: 100px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-  }
-  #cnt4 .cnt_wrap {
-    padding: 0 90px;
-  }
-}
-
 @media screen and (max-width: 1152px) {
   #cnt1 .swiper-container {
     height: 90vh;
@@ -719,7 +685,7 @@
   }
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 625px) {
   #cnt1 .swiper-container {
     height: 80vh;
   }
@@ -858,137 +824,5 @@
     height: 46px;
     line-height: 46px;
     font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 384px) {
-  #cnt1 .cnt_box {
-    left: 6.25vw;
-  }
-  #cnt1 .cnt_box h3 {
-    font-size: 8.33333vw;
-    margin-bottom: 6.25vw;
-  }
-  #cnt1 .controller {
-    left: 6.25vw;
-    width: 41.66667vw;
-    height: 9.375vw;
-    bottom: 6.25vw;
-  }
-  #cnt1 .controller .swiper-button-prev, #cnt1 .controller .swiper-button-next {
-    width: 9.375vw;
-    height: 9.375vw;
-    margin-right: 6.25vw;
-  }
-  #cnt1 .controller .swiper-pagination {
-    font-size: 4.16667vw;
-    line-height: 8.85417vw;
-  }
-  #cnt1 .controller .swiper-auto-wrap i {
-    right: -9.375vw;
-    padding: 2.60417vw;
-    font-size: 4.16667vw;
-  }
-  #cnt2 .wide_section .cnt_wrap {
-    padding: 12.5vw 6.25vw 9.375vw;
-  }
-  #cnt2 .wide_section .cnt_wrap p {
-    font-size: 3.64583vw;
-    margin-bottom: 5.20833vw;
-  }
-  #cnt2 .wide_section .cnt_wrap h3 {
-    font-size: 6.25vw;
-    margin-bottom: 6.25vw;
-  }
-  #cnt3 .wide_section .cnt_wrap {
-    padding: 12.5vw 6.25vw 15.625vw;
-  }
-  #cnt3 .wide_section .cnt_wrap h3 {
-    font-size: 6.25vw;
-    margin-bottom: 8.33333vw;
-  }
-  #cnt3 .wide_section .cnt_wrap #m_book_list {
-    margin-bottom: 6.25vw;
-  }
-  #cnt3 .wide_section .cnt_wrap #m_book_list li {
-    padding: 4.16667vw 0;
-  }
-  #cnt3 .wide_section .cnt_wrap #m_book_list li a {
-    width: 43.75vw;
-    height: 63.28125vw;
-    border-radius: 3.125vw;
-    margin-right: 6.25vw;
-  }
-  #cnt3 .wide_section .cnt_wrap #m_book_list .m_txt_box {
-    font-size: 4.16667vw;
-    width: calc(100% - 50vw);
-  }
-  #cnt3 .wide_section .cnt_wrap #m_book_list .m_txt_box strong {
-    font-size: 4.6875vw;
-    padding: 8px 0;
-  }
-  #cnt3 .wide_section .cnt_wrap #m_book_list .m_txt_box p {
-    padding: 3.125vw 0;
-  }
-  #cnt3 .wide_section .cnt_wrap #m_book_list .m_txt_box span {
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
-    white-space: normal;
-    max-height: 39.0625vw;
-    text-overflow: ellipsis;
-    overflow: hidden;
-  }
-  #cnt4 .cnt_wrap {
-    padding: 12.5vw 6.25vw 15.625vw;
-  }
-  #cnt4 .cnt_wrap .notice_box h3 {
-    font-size: 6.25vw;
-    margin-bottom: 12.5vw;
-  }
-  #cnt4 .cnt_wrap .notice_box ul {
-    margin-bottom: 6.25vw;
-  }
-  #cnt4 .cnt_wrap .notice_box ul li {
-    width: calc(50% - 2.08333vw);
-    margin-left: 4.16667vw;
-    margin-bottom: 6.25vw;
-  }
-  #cnt4 .cnt_wrap .notice_box ul li a .thumb_box {
-    border-radius: 3.125vw;
-  }
-  #cnt4 .cnt_wrap .notice_box ul li a .txt_box p {
-    font-size: 4.16667vw;
-    line-height: 5.20833vw;
-    margin: 3.125vw 0 2.08333vw;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    white-space: normal;
-    max-height: 10.41667vw;
-    text-overflow: ellipsis;
-    overflow: hidden;
-  }
-  #cnt4 .cnt_wrap .notice_box ul li a .txt_box span {
-    font-size: 3.64583vw;
-  }
-  .slide_link_btn {
-    padding: 0 11.71875vw 0 6.77083vw;
-    font-size: 3.64583vw;
-    height: 14.0625vw;
-    line-height: 14.0625vw;
-    border-radius: 26.04167vw;
-  }
-  .slide_link_btn::after {
-    width: 2.60417vw;
-    height: 2.60417vw;
-    right: 6.77083vw;
-  }
-  .link_btn {
-    padding: 0 7.8125vw;
-    height: 11.97917vw;
-    line-height: 11.97917vw;
-    font-size: 3.64583vw;
-    border-radius: 26.04167vw;
   }
 }
