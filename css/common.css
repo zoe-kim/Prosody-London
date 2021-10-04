@@ -235,9 +235,12 @@ body * {
   transition: all 0.3s;
 }
 
-.header .heder_wrap .util i {
-  font-size: 18px;
+.header .heder_wrap .util a {
   margin-left: 42px;
+}
+
+.header .heder_wrap .util a i {
+  font-size: 18px;
   color: #fff;
 }
 

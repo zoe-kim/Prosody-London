@@ -438,7 +438,7 @@
   animation-delay: 1.2s;
 }
 
-#cnt6 .cnt_wrap {
+#cnt4 .cnt_wrap {
   padding: 90px 90px 120px 90px;
   margin: 0 auto;
   max-width: 1440px;
@@ -446,23 +446,23 @@
   font-size: 18px;
 }
 
-#cnt6 .cnt_wrap .notice_box h3 {
+#cnt4 .cnt_wrap .notice_box h3 {
   line-height: 60px;
   letter-spacing: -1px;
   margin-bottom: 48px;
   color: #909090;
 }
 
-#cnt6 .cnt_wrap .notice_box h3 strong {
+#cnt4 .cnt_wrap .notice_box h3 strong {
   position: relative;
   color: #1E1E1E;
 }
 
-#cnt6 .cnt_wrap .notice_box h3 p {
+#cnt4 .cnt_wrap .notice_box h3 p {
   font-size: 32px;
 }
 
-#cnt6 .cnt_wrap .notice_box ul {
+#cnt4 .cnt_wrap .notice_box ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -473,22 +473,22 @@
   margin-bottom: 48px;
 }
 
-#cnt6 .cnt_wrap .notice_box ul li {
+#cnt4 .cnt_wrap .notice_box ul li {
   margin: 0;
   width: calc(25% - 24px);
   margin-left: 32px;
 }
 
-#cnt6 .cnt_wrap .notice_box ul li:first-child {
+#cnt4 .cnt_wrap .notice_box ul li:first-child {
   margin-left: 0;
 }
 
-#cnt6 .cnt_wrap .notice_box ul li a {
+#cnt4 .cnt_wrap .notice_box ul li a {
   display: block;
   text-align: left;
 }
 
-#cnt6 .cnt_wrap .notice_box ul li a .thumb_box {
+#cnt4 .cnt_wrap .notice_box ul li a .thumb_box {
   position: relative;
   width: 100%;
   height: 100%;
@@ -498,7 +498,7 @@
           box-shadow: 4px 12px 30px 6px rgba(0, 0, 0, 0.09);
 }
 
-#cnt6 .cnt_wrap .notice_box ul li a .thumb_box::before {
+#cnt4 .cnt_wrap .notice_box ul li a .thumb_box::before {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   content: "";
@@ -511,7 +511,7 @@
   opacity: 0;
 }
 
-#cnt6 .cnt_wrap .notice_box ul li a .txt_box p {
+#cnt4 .cnt_wrap .notice_box ul li a .txt_box p {
   font-size: 18px;
   line-height: 24px;
   margin: 20px 0;
@@ -526,7 +526,7 @@
   overflow: hidden;
 }
 
-#cnt6 .cnt_wrap .notice_box ul li a .txt_box span {
+#cnt4 .cnt_wrap .notice_box ul li a .txt_box span {
   display: block;
   font-size: 16px;
   line-height: 1;
@@ -534,17 +534,17 @@
   letter-spacing: 0;
 }
 
-#cnt6 .cnt_wrap .notice_box ul li a:hover, #cnt6 .cnt_wrap .notice_box ul li a:focus {
+#cnt4 .cnt_wrap .notice_box ul li a:hover, #cnt4 .cnt_wrap .notice_box ul li a:focus {
   color: #501215;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
-#cnt6 .cnt_wrap .notice_box ul li a:hover .thumb_box::before, #cnt6 .cnt_wrap .notice_box ul li a:focus .thumb_box::before {
+#cnt4 .cnt_wrap .notice_box ul li a:hover .thumb_box::before, #cnt4 .cnt_wrap .notice_box ul li a:focus .thumb_box::before {
   opacity: 1;
 }
 
-#cnt6 .cnt_wrap .notice_box .link_btn {
+#cnt4 .cnt_wrap .notice_box .link_btn {
   -webkit-animation-delay: 1.2s;
   animation-delay: 1.2s;
 }
@@ -578,7 +578,7 @@
     text-overflow: ellipsis;
     overflow: hidden;
   }
-  #cnt6 .cnt_wrap {
+  #cnt4 .cnt_wrap {
     padding: 0 90px;
   }
 }
@@ -691,29 +691,29 @@
     text-overflow: ellipsis;
     overflow: hidden;
   }
-  #cnt6 .cnt_wrap {
+  #cnt4 .cnt_wrap {
     padding: 120px 90px 80px;
   }
-  #cnt6 .cnt_wrap .notice_box h3 {
+  #cnt4 .cnt_wrap .notice_box h3 {
     margin-top: 0;
     font-size: 36px;
     line-height: 50px;
   }
-  #cnt6 .cnt_wrap .notice_box ul {
+  #cnt4 .cnt_wrap .notice_box ul {
     margin-bottom: 80px;
   }
-  #cnt6 .cnt_wrap .notice_box ul li {
+  #cnt4 .cnt_wrap .notice_box ul li {
     width: calc(50% - 16px);
     margin-left: 32px;
     margin-bottom: 46px;
   }
-  #cnt6 .cnt_wrap .notice_box ul li:first-child, #cnt6 .cnt_wrap .notice_box ul li:nth-child(3) {
+  #cnt4 .cnt_wrap .notice_box ul li:first-child, #cnt4 .cnt_wrap .notice_box ul li:nth-child(3) {
     margin: 0;
   }
-  #cnt6 .cnt_wrap .notice_box ul li:nth-child(4) {
+  #cnt4 .cnt_wrap .notice_box ul li:nth-child(4) {
     margin-bottom: 0;
   }
-  #cnt6 .cnt_wrap .notice_box ul li a .txt_box p {
+  #cnt4 .cnt_wrap .notice_box ul li a .txt_box p {
     margin: 20px 0 12px;
     min-height: 24px;
   }
@@ -815,26 +815,26 @@
     text-overflow: ellipsis;
     overflow: hidden;
   }
-  #cnt6 .cnt_wrap {
+  #cnt4 .cnt_wrap {
     padding: 48px 24px 60px;
   }
-  #cnt6 .cnt_wrap .notice_box h3 {
+  #cnt4 .cnt_wrap .notice_box h3 {
     font-size: 24px;
     line-height: 1.5;
     margin-bottom: 48px;
   }
-  #cnt6 .cnt_wrap .notice_box ul {
+  #cnt4 .cnt_wrap .notice_box ul {
     margin-bottom: 24px;
   }
-  #cnt6 .cnt_wrap .notice_box ul li {
+  #cnt4 .cnt_wrap .notice_box ul li {
     width: calc(50% - 8px);
     margin-left: 16px;
     margin-bottom: 24px;
   }
-  #cnt6 .cnt_wrap .notice_box ul li a .thumb_box {
+  #cnt4 .cnt_wrap .notice_box ul li a .thumb_box {
     border-radius: 12px;
   }
-  #cnt6 .cnt_wrap .notice_box ul li a .txt_box p {
+  #cnt4 .cnt_wrap .notice_box ul li a .txt_box p {
     font-size: 16px;
     line-height: 20px;
     margin: 12px 0 8px;
@@ -846,7 +846,7 @@
     text-overflow: ellipsis;
     overflow: hidden;
   }
-  #cnt6 .cnt_wrap .notice_box ul li a .txt_box span {
+  #cnt4 .cnt_wrap .notice_box ul li a .txt_box span {
     font-size: 14px;
   }
   .slide_link_btn {
@@ -939,25 +939,25 @@
     text-overflow: ellipsis;
     overflow: hidden;
   }
-  #cnt6 .cnt_wrap {
+  #cnt4 .cnt_wrap {
     padding: 12.5vw 6.25vw 15.625vw;
   }
-  #cnt6 .cnt_wrap .notice_box h3 {
+  #cnt4 .cnt_wrap .notice_box h3 {
     font-size: 6.25vw;
     margin-bottom: 12.5vw;
   }
-  #cnt6 .cnt_wrap .notice_box ul {
+  #cnt4 .cnt_wrap .notice_box ul {
     margin-bottom: 6.25vw;
   }
-  #cnt6 .cnt_wrap .notice_box ul li {
+  #cnt4 .cnt_wrap .notice_box ul li {
     width: calc(50% - 2.08333vw);
     margin-left: 4.16667vw;
     margin-bottom: 6.25vw;
   }
-  #cnt6 .cnt_wrap .notice_box ul li a .thumb_box {
+  #cnt4 .cnt_wrap .notice_box ul li a .thumb_box {
     border-radius: 3.125vw;
   }
-  #cnt6 .cnt_wrap .notice_box ul li a .txt_box p {
+  #cnt4 .cnt_wrap .notice_box ul li a .txt_box p {
     font-size: 4.16667vw;
     line-height: 5.20833vw;
     margin: 3.125vw 0 2.08333vw;
@@ -969,7 +969,7 @@
     text-overflow: ellipsis;
     overflow: hidden;
   }
-  #cnt6 .cnt_wrap .notice_box ul li a .txt_box span {
+  #cnt4 .cnt_wrap .notice_box ul li a .txt_box span {
     font-size: 3.64583vw;
   }
   .slide_link_btn {
