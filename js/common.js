@@ -28,15 +28,15 @@ $(document).ready(function() {
     if (window.innerWidth <= 1152) $('#cnt4').find('.verticalscroll').removeClass('verticalscroll').addClass('horizontalscroll');
     else $('#cnt4').find('.horizontalscroll').removeClass('horizontalscroll').addClass('verticalscroll');  // pc 사이즈로 변경시 다시 바뀌도록
 
-    // .movetop과 .greenbox 애니메이션
+    // .movetop과 .underline 애니메이션
     $('section.section').not('#cnt1').each(function () {
       // .movetop 애니메이션 실행
       if (scrollY > $(this).offset().top) $(this).find('.movetop').addClass('active');
       else $(this).find('.movetop').removeClass('active');
-      // .greenbox 애니메이션 실행
+      // .underline 애니메이션 실행
       const scrollY2 = $(window).scrollTop() + $(window).height()*1/3;
-      if (scrollY2 > $(this).offset().top) $(this).find('.greenbox').addClass('on');
-      else $(this).find('.greenbox').removeClass('on');
+      if (scrollY2 > $(this).offset().top) $(this).find('.underline').addClass('on');
+      else $(this).find('.underline').removeClass('on');
     });
 
     // .horizontalscroll 애니메이션 실행

@@ -105,7 +105,7 @@ body{
         }
     }
 }
-#m_head{visibility: hidden;max-height: 0;overflow: hidden;} // ios에서 display: none이 display: block으로 바뀔 경우 생기는 오류 때문에, 모바일 요소는 전부 visibility, max-height, overflow로 제어!!
+#m_head{visibility: hidden;max-height: 0;overflow: hidden;}
 
 #pc_foot{
     padding: 50px 0 70px;background: #f9f9f9;color: #4A4A4A;text-align: center;
@@ -137,18 +137,18 @@ body{
     .header{
         .heder_wrap{
             padding: 16px;height: 60px;
-            .logo a{display: block;width: 140px;background: url("../images/common/logo2.png") no-repeat center / contain;}
+            .logo a{display: block;height: 24px;background: url("../images/common/logo3.png") no-repeat center / contain;}
             .util{
                 a{
                     margin-left: 0px;
-                    i{font-size: 22px;color: #fff;}
+                    i{font-size: 24px;color: #fff;}
                 }
             }    
         }
     }
     .header.on{
         .heder_wrap{
-            .logo a{background-image: url("../images/common/logo3.png");@include transition(all 0.3s);}
+            .logo a{background-image: url("../images/common/logo.png");@include transition(all 0.3s);}
             .util{
                 i{color: #000;@include transition(all 0.3s);}
             }
@@ -157,17 +157,18 @@ body{
     #m_head{
         visibility: visible;max-height: 60px;overflow: visible;
         .m_nav{
-            .menu_open{width: 18px;height: 18px;background: url("../images/common/mGnb_open_btn_w.png") no-repeat center / cover;vertical-align: middle;}
+            @include flex;@include justify-content(space-between);@include align-items;
+            .menu_open{width: 18px;height: 18px;margin-left: 18px;background: url("../images/common/mGnb_open_btn_w.png") no-repeat center / cover;vertical-align: middle;}
             .menu_dim{position: fixed;top: 0;left: 0;width: 100%;height: 100%;background: $black;opacity: 0;}
             .menu_wrap{
                 position: fixed;top: 0;right: -100%;width: 100%;height: 100vh;background: #fff;padding: 0 24px;visibility:hidden;
                 > a{
                     display: block;margin: 22px 0px;width: 64px;
-                    img{width: 64px;height: 30px;}
+                    img{height: 30px;}
                 }
                 .menu{
                     ul li{
-                        a {display: block;padding: 24px 0;font-size: 18px;font-weight: 700;color: $gray1;border-bottom: 1px solid #eee;line-height: 1.3;}
+                        a {display: block;padding: 24px 0;font-weight: 500;border-bottom: 1px solid #eee;line-height: 1.3;}
                         &:hover a, a:focus{color: $black;@include transition(all 0.3s);}
                     }
                 }
