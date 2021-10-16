@@ -522,6 +522,7 @@
     overflow: hidden;
     -webkit-box-shadow: 4px 12px 30px 6px rgba(0, 0, 0, 0.09);
             box-shadow: 4px 12px 30px 6px rgba(0, 0, 0, 0.09);
+    background-color: #fff;
   }
   #cnt3 .wide_section .cnt_wrap #m_book_list li a img {
     -webkit-transform: translateY(-50%);
@@ -529,8 +530,6 @@
     position: absolute;
     left: 0;
     top: 50%;
-    width: 100%;
-    height: 100%;
   }
   #cnt3 .wide_section .cnt_wrap #m_book_list .m_txt_box {
     display: -webkit-box;

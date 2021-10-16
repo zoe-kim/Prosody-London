@@ -1,0 +1,18 @@
+@charset "utf-8";
+@import "_var", "_mixin", "_function";
+
+// pc (1920px)
+#main{
+  .container{
+    max-width: 1134px;width: 100%;margin: 0 auto;padding-top: 120px;
+    h1{padding: 24px 0;font-size: 18px;font-weight: 500;}
+    .wrap{
+      .info{padding: 50px 0 140px;}
+    }
+  }
+}
+
+// 모바일 (625px)
+@media screen and (max-width: 625px) {
+
+}

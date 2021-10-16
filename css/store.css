@@ -1,0 +1,16 @@
+#main .container {
+  max-width: 1134px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 120px;
+}
+
+#main .container h1 {
+  padding: 24px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#main .container .wrap .info {
+  padding: 50px 0 140px;
+}
