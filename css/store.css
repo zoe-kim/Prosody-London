@@ -1,5 +1,5 @@
 #main .container {
-  max-width: 1134px;
+  max-width: 760px;
   width: 100%;
   margin: 0 auto;
   padding-top: 120px;
@@ -11,6 +11,34 @@
   font-weight: 500;
 }
 
+#main .container .wrap {
+  text-align: center;
+}
+
 #main .container .wrap .info {
   padding: 50px 0 140px;
+}
+
+#main .container .wrap .info h2 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+#main .container .wrap .info p {
+  font-size: 13px;
+  line-height: 24px;
+}
+
+#main .container .wrap .info a {
+  display: inline-block;
+  margin-top: 40px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 1px;
+}
+
+@media screen and (max-width: 625px) {
+  #main .container h1 {
+    margin-left: 20px;
+  }
 }

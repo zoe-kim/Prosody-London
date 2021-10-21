@@ -4,15 +4,25 @@
 // pc (1920px)
 #main{
   .container{
-    max-width: 1134px;width: 100%;margin: 0 auto;padding-top: 120px;
+    max-width: 760px;width: 100%;margin: 0 auto;padding-top: 120px;
     h1{padding: 24px 0;font-size: 18px;font-weight: 500;}
     .wrap{
-      .info{padding: 50px 0 140px;}
+      text-align: center;
+      .info{
+        padding: 50px 0 140px;
+        h2{font-size: 16px;font-weight: 500;margin-bottom: 20px;}
+        p{font-size: 13px;line-height: 24px;}
+        a{display: inline-block;margin-top: 40px;border-bottom: 1px solid #000;padding-bottom: 1px;}
+      }
     }
   }
 }
 
 // 모바일 (625px)
 @media screen and (max-width: 625px) {
-
+  #main{
+    .container{
+      h1{margin-left: 20px;}
+    }
+  }  
 }
