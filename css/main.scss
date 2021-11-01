@@ -115,7 +115,7 @@
       strong{position: relative;color: $black;}
       p{font-size: 32px;}
     }
-    #book_list{
+    #list{
       @include flex;
       @include justify-content(space-between);
       @include animation-delay(.8s);
@@ -141,7 +141,7 @@
         &::before{opacity: 1;}
       }
     }
-    #m_book_list{visibility: hidden;height: 0;overflow: hidden;}
+    #m_list{visibility: hidden;height: 0;overflow: hidden;}
     .link_btn{@include animation-delay(1.2s);}
   }
 }
@@ -210,8 +210,8 @@
           font-size: 14px;line-height: 1.5;margin-bottom: 32px;
           p{font-size: 24px;}
         }
-        #book_list{display: none;}
-        #m_book_list{
+        #list{display: none;}
+        #m_list{
           visibility: visible;height: 100%;overflow: visible;margin-bottom: 24px;
           li{
             @include flex;

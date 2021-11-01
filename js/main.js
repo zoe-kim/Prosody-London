@@ -41,8 +41,8 @@ $(document).ready(function () {
     else $('html, body').stop().animate({scrollTop: $('#cnt2').offset().top}, 600);  // 태블릿, 모바일
   })
 
-  // #cnt3 #book_list li a에 마우스와 포커스가 진입하거나 빠져 나갈 때
-  $('#book_list li a').on({
+  // #cnt3 #list li a에 마우스와 포커스가 진입하거나 빠져 나갈 때
+  $('#list li a').on({
     'mouseenter focus': function () {
       $(this).addClass('on').children('.hover_book').stop().slideDown();
     },
